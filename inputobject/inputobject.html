@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+     
+        <h1><lightning-icon icon-name="action:new_note" alternative-text="New note" title="New note" class="h1"></lightning-icon>    Cadastro   </h1>
+        <div class="slds-m-around_medium">
+       <lightning-input label="Primeiro Nome" type="text" name="primeiroNome" onchange={handleInputChange}></lightning-input>
+        <lightning-input label="Sobrenome" type="text" name="sobrenome" onchange={handleInputChange}></lightning-input>
+        <lightning-input label="E-mail" type="email" name="email" onchange={handleInputChange}></lightning-input>
+        <lightning-input label="Website" type="url" name="website" onchange={handleInputChange}></lightning-input>
+        <lightning-input label="Empresa" type="text" name="empresa" onchange={handleInputChange}></lightning-input>
+        <lightning-input label="Receita Anual" type="number" name="receitaAnual" onchange={handleInputChange}></lightning-input>
+      </div>
+    </lightning-card>
+  </template>
+  
